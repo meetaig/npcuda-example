@@ -13,3 +13,7 @@ def test():
 
     npt.assert_array_equal(arr, [2,3,3,3])
     npt.assert_array_equal(results2, [2,3,3,3])
+
+
+if __name__ == "__main__":
+    test()
